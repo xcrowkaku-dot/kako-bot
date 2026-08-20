@@ -1,0 +1,63 @@
+{
+  "_comment": "Bot configuration file.",
+  "prefix": "-",
+  "credentials": {
+    "_comment": "Optional email/password for auto re-login.",
+    "email": "",
+    "password": ""
+  },
+  "appStatePath": "./appstate.json",
+  "bot": {
+    "name": "Broly",
+    "version": "2.1.0",
+    "adminIDs": [
+      "61590053664080"
+    ],
+    "language": "en"
+  },
+  "features": {
+    "autoSaveAppState": true,
+    "autoSaveIntervalMs": 30000,
+    "greetNewMembers": false,
+    "farewellMembers": false,
+    "antiSpam": true,
+    "antiSpamCooldownMs": 3000,
+    "logMessages": true
+  },
+  "humanSimulator": {
+    "_comment": "Human simulation — makes the account look like a real person to Facebook.",
+    "enabled": true,
+    "presenceIntervalMs": 300000,
+    "typingIntervalMs": 480000,
+    "readIntervalMs": 180000,
+    "jitterMs": 30000,
+    "maxTypingMs": 4000,
+    "maxGroupsPerCycle": 3
+  },
+  "dashboard": {
+    "_comment": "Dashboard API — set apiKey to a strong secret.",
+    "apiKey": "changeme-set-a-strong-secret",
+    "port": 3001
+  },
+  "messages": {
+    "greet": "Welcome to the group, {name}! 👋",
+    "farewell": "Goodbye, {name}! We'll miss you. 👋",
+    "commandNotFound": "Unknown command '{cmd}'. Type {prefix}help for a list of commands.",
+    "errorOccurred": "⚠️ An error occurred while running that command.",
+    "botRestarted": "🤖 Bot session has been restored successfully!"
+  },
+  "loginOptions": {
+    "online": true,
+    "selfListen": false,
+    "listenEvents": true,
+    "listenTyping": false,
+    "autoMarkRead": true,
+    "autoMarkDelivery": false,
+    "autoReconnect": true,
+    "simulateTyping": true,
+    "forceLogin": false,
+    "maxConcurrentRequests": 5,
+    "maxRequestsPerMinute": 40,
+    "requestCooldownMs": 60000
+  }
+}
