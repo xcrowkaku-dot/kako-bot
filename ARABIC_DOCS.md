@@ -307,7 +307,7 @@ curl http://localhost:3001/diagnostics
 **خطوات التشخيص:**
 ```bash
 # 1. تحقق من السجلات الأخيرة
-tail -50 logs/madox-$(date +%Y-%m-%d).log
+ tail -50 logs/broly-$(date +%Y-%m-%d).log
 
 # 2. ابحث عن أخطاء الذاكرة
 grep "CRITICAL\|memory\|OOM" logs/madox-$(date +%Y-%m-%d).log
