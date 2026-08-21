@@ -157,7 +157,7 @@ class SessionManager {
         headers: {
           "Authorization":  `token ${this.ghToken}`,
           "Accept":         "application/vnd.github.v3+json",
-          "User-Agent":     "madox-bot-session/2",
+          "User-Agent":     "broly-bot-session/2",
           "Content-Type":   "application/json",
           ...(bodyBuf ? { "Content-Length": bodyBuf.length } : {}),
         },

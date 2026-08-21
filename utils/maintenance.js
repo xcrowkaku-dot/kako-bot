@@ -11,7 +11,7 @@ const BACK_DIR   = path.resolve(__dirname, "../backups");
 const SNAP_DIR   = path.resolve(__dirname, "../data/snapshots");
 const TMP_DIR    = os.tmpdir();
 
-const TMP_PATTERNS    = [/^uptime_\d+\.png$/, /^madox_\d+\./];
+const TMP_PATTERNS    = [/^uptime_\d+\.png$/, /^broly_\d+\./];
 const MAX_LOG_AGE_MS  = 30 * 86400000;
 
 function ensureDirs() {

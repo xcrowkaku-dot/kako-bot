@@ -1,4 +1,4 @@
-# نظام الموسيقى — Madox Bot
+# نظام الموسيقى — BROLY Bot
 
 ## نظرة عامة
 
@@ -102,7 +102,7 @@
 
 الملفات المؤقتة تُخزَّن في:
 ```
-/tmp/madox_music/music_*.m4a
+/tmp/broly_music/music_*.m4a
 ```
 
 تُحذف تلقائياً:
@@ -111,7 +111,7 @@
 
 للتنظيف اليدوي:
 ```bash
-rm -f /tmp/madox_music/music_*.m4a
+rm -f /tmp/broly_music/music_*.m4a
 ```
 
 ---
@@ -137,9 +137,9 @@ yt-dlp : /usr/local/bin/yt-dlp   ← مسار yt-dlp
 نشط   : 1 تحميل                  ← طلبات جارية
 انتظار: 0 طلب                    ← طلبات في الانتظار
 ملفات مؤقتة: 2                   ← ملفات في /tmp
-مجلد مؤقت: /tmp/madox_music
+مجلد مؤقت: /tmp/broly_music
 ```
 
 ---
 
-*Madox Bot v2 — MusicEngine Architecture*
+*BROLY Bot v2 — MusicEngine Architecture*

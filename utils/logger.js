@@ -28,7 +28,7 @@ let _curStream = null;
 function _todayFileName() {
   const d = new Date();
   const ymd = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
-  return path.join(LOGS_DIR, `madox-${ymd}.log`);
+  return path.join(LOGS_DIR, `broly-${ymd}.log`);
 }
 
 function _needsRotation(file) {

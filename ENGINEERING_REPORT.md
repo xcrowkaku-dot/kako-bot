@@ -1,4 +1,4 @@
-# Madox v2.1.0 — Engineering Repair Report
+# BROLY v2.1.0 — Engineering Repair Report
 
 **Date:** 2026-05-19  
 **Scope:** Full codebase audit, bug repair, security hardening, and optimization  

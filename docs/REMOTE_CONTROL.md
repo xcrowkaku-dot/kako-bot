@@ -1,4 +1,4 @@
-# دليل نظام التحكم عن بُعد — Madox Bot
+# دليل نظام التحكم عن بُعد — BROLY Bot
 
 ## مقدمة
 
@@ -212,4 +212,4 @@ getThreadInfo(group_3) ✅ → تُضاف للقائمة
 
 ---
 
-*نظام Madox v2 — ThreadScanner Architecture*
+*نظام BROLY v2 — ThreadScanner Architecture*

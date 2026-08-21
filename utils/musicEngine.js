@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * musicEngine — production-grade audio delivery engine for Madox bot.
+ * musicEngine — production-grade audio delivery engine for BROLY bot.
  *
  * Provider chain:
  *   1. YouTube via yt-dlp — tries 4 player clients in sequence:
@@ -27,7 +27,7 @@ const { spawn, execFile } = require("child_process");
 const logger = require("./logger");
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const TMP_DIR          = path.join(os.tmpdir(), "madox_music");
+const TMP_DIR          = path.join(os.tmpdir(), "broly_music");
 const YTDLP_LOCAL      = path.join(TMP_DIR, "yt-dlp");
 const MAX_CONCURRENT   = 2;
 const QUEUE_MAX        = 5;
